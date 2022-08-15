@@ -24,3 +24,7 @@ Path of the output csv needs to be provided to write the output ot csv. Currentl
 |---------------------|---------------------|--------------------|
 | 2015-04-10 09:15:00 | 2015-04-10 11:18:20 | 4                  |
 | 2015-04-10 17:30:00 | 2015-04-10 19:18:03 | 4                  |
+
+#PowerPoint Presenation
+
+Please refer the powerpoint attached with an email for the choosen approach to find solution and its pros/cons. Also the other approach is also mention in the powerpoint.
