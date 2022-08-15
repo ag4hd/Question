@@ -1,0 +1,20 @@
+plugins {
+    id 'scala'
+}
+
+dependencies {
+    implementation 'org.scala-lang:scala-library:2.13.8'
+    // For running just with Spark Core
+    implementation 'org.apache.spark:spark-core_2.13:3.2.1'
+    // Spark SQL subsumes Spark Core
+    implementation 'org.apache.spark:spark-sql_2.13:3.2.1'
+    implementation group: 'org.typelevel', name: 'cats-core_2.13', version: '2.8.0'
+    implementation group: 'org.typelevel', name: 'frameless-core_2.13', version: '0.12.0'
+    implementation group: 'org.typelevel', name: 'frameless-cats_2.13', version: '0.12.0'
+    implementation group: 'org.typelevel', name: 'frameless-dataset_2.13', version: '0.12.0'
+
+}
+
+repositories {
+    mavenCentral()
+}
